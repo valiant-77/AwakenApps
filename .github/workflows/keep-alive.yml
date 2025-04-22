@@ -1,0 +1,37 @@
+name: Keep Render Apps Alive
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: |
+          npm install axios
+          node -e "
+            const axios = require('axios');
+            const urls = [
+              'https://web-watcher.onrender.com',
+              'https://habit-tracker-s4no.onrender.com',
+              'https://summerease.onrender.com',
+              'https://portfolio-page-pt2p.onrender.com'
+            ];
+            
+            async function pingAll() {
+              for (const url of urls) {
+                try {
+                  console.log(`Pinging ${url}...`);
+                  await axios.get(url);
+                  console.log(`Successfully pinged ${url}`);
+                } catch (error) {
+                  console.error(`Failed to ping ${url}: ${error.message}`);
+                }
+              }
+            }
+            
+            pingAll();
+          "
