@@ -2,6 +2,8 @@ name: Keep Render Apps Alive
 on:
   schedule:
     - cron: '*/30 * * * *'
+  workflow_dispatch:  # This allows manual triggering
+
 jobs:
   ping:
     runs-on: ubuntu-latest
