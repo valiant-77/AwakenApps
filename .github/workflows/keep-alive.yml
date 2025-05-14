@@ -18,14 +18,14 @@ jobs:
         run: |
           node -e "
             const axios = require('axios');
-            #824 - rvce.77 render in use from 14/5/25 to 
-           # const urls = [
-             # 'https://habit-tracker-b7ku.onrender.com/',
-             # 'https://web-watcher-87ov.onrender.com/',
-             # 'https://summerease-t3iu.onrender.com/'
-            #];
+            //824 - rvce.77 render in use from 14/5/25 to 
+           // const urls = [
+             // 'https://habit-tracker-b7ku.onrender.com/',
+             // 'https://web-watcher-87ov.onrender.com/',
+             // 'https://summerease-t3iu.onrender.com/'
+            //];
 
-            # 77-2324 render suspended
+            // 77-2324 render suspended
             const urls = [
               'https://summerease-ovge.onrender.com',
               'https://web-watcher-gnod.onrender.com',
@@ -33,10 +33,10 @@ jobs:
             ];
             
 
-             # 248 -704 render suspended
-            #const urls = [
+             // 248 -704 render suspended
+            //const urls = [
               
-            #];
+            //];
 
             
             async function pingAll() {
