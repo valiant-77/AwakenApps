@@ -21,7 +21,7 @@ jobs:
             //824 - rvce.77 render in use from 14/5/25 to 
             const urls = [
               'https://habit-tracker-b7ku.onrender.com/',
-              'https://web-watcher-905d.onrender.com',
+              'https://web-watcher-905d.onrender.com/index.html',
               'https://summerease-t3iu.onrender.com/'
             ];
 
