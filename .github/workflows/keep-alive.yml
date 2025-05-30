@@ -18,19 +18,19 @@ jobs:
         run: |
           node -e "
             const axios = require('axios');
-            //824 - rvce.77 render in use from 14/5/25 to 
-            const urls = [
-              'https://habit-tracker-b7ku.onrender.com/',
-              'https://web-watcher-905d.onrender.com/index.html',
-              'https://summerease-t3iu.onrender.com/'
-            ];
-
-            // 77-2324 render suspended
+            //824 - rvce.77 render in use from 14/5/25 to 30/5/25
             //const urls = [
-              //'https://summerease-ovge.onrender.com',
-              //'https://web-watcher-gnod.onrender.com',
-              //'https://habit-tracker-g92o.onrender.com'
+             // 'https://habit-tracker-b7ku.onrender.com/',
+             // 'https://web-watcher-905d.onrender.com/index.html',
+             // 'https://summerease-t3iu.onrender.com/'
            // ];
+
+            // 77-2324 render in use from 30/5/25-
+            const urls = [
+              'https://summerease-ovge.onrender.com',
+              'https://web-watcher-gnod.onrender.com',
+              'https://habit-tracker-g92o.onrender.com'
+            ];
             
 
              // 248 -704 render suspended
