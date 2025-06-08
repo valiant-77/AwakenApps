@@ -18,7 +18,7 @@ jobs:
         run: |
           node -e "
             const axios = require('axios');
-            //824 - rvce.77 render in use from 14/5/25 to 30/5/25
+            //(Ghub-Web-Watcher) (rvce.77- render) in use from 14/5/25 to 30/5/25
             //const urls = [
              // 'https://habit-tracker-b7ku.onrender.com/',
              // 'https://web-watcher-905d.onrender.com/index.html',
@@ -33,7 +33,7 @@ jobs:
             ];
             
 
-             // 248 -704 render suspended
+             // (Ghub-Habit-Tracker-Appz) (Dev-render) suspended
             //const urls = [
               
             //];
