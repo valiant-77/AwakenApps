@@ -18,16 +18,15 @@ jobs:
         run: |
           node -e "
             const axios = require('axios');
-            //(Ghub-AdityaDev2) (rvce.77- render) in use from 14/5/25 to 30/5/25
-            //(Ghub-AdityaDev2) (rvce.77- render) in use from 16/6/25 to 
-            const urls = [
-              'https://habit-tracker-b7ku.onrender.com/',
-              'https://web-watcher-905d.onrender.com/index.html',
-              'https://summerease-t3iu.onrender.com/',
-              'https://jobtrail.onrender.com/'
-            ];
+            //(Ghub-AdityaDev2) (rvce.77- render) 
+            //const urls = [
+             // 'https://habit-tracker-b7ku.onrender.com/',
+             // 'https://web-watcher-905d.onrender.com/index.html',
+             // 'https://summerease-t3iu.onrender.com/',
+             // 'https://jobtrail.onrender.com/'
+           // ];
 
-            // (Ghub-Valiant77)-(2324 -render) in use from 30/5/25-16/6/25
+            // (Ghub-Valiant77)-(2324 -render) 
            // const urls = [
              // 'https://summerease-ovge.onrender.com',
              // 'https://web-watcher-gnod.onrender.com',
@@ -35,9 +34,13 @@ jobs:
             //];
             
 
-             // (Ghub-Habit-Tracker-Appz) (Dev-render) suspended
-            //const urls = [
-            //];
+             // (Ghub-AdityaDev704) (Dev-render) In use
+            const urls = [
+              'https://jobtrail-4l68.onrender.com',
+              'https://summerease.onrender.com',
+              'https://web-watcher.onrender.com',
+              'https://habit-tracker-094s.onrender.com'
+            ];
 
             
             async function pingAll() {
