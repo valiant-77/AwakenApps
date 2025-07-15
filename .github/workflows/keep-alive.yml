@@ -27,20 +27,21 @@ jobs:
            // ];
 
             // (Ghub-Valiant77)-(2324 -render) 
-           // const urls = [
-             // 'https://summerease-ovge.onrender.com',
-             // 'https://web-watcher-gnod.onrender.com',
-              //'https://habit-tracker-g92o.onrender.com'
-            //];
+            const urls = [
+              'https://summerease-ovge.onrender.com',
+              'https://web-watcher-gnod.onrender.com',
+              'https://habit-tracker-g92o.onrender.com',
+              'https://jobtrail-xh7d.onrender.com'
+            ];
             
 
              // (Ghub-AdityaDev704) (Dev-render) In use
-            const urls = [
-              'https://jobtrail-4l68.onrender.com',
-              'https://summerease.onrender.com',
-              'https://web-watcher.onrender.com',
-              'https://habit-tracker-094s.onrender.com'
-            ];
+            //const urls = [
+             // 'https://jobtrail-4l68.onrender.com',
+             // 'https://summerease.onrender.com',
+             // 'https://web-watcher.onrender.com',
+             // 'https://habit-tracker-094s.onrender.com'
+          //  ];
 
             
             async function pingAll() {
